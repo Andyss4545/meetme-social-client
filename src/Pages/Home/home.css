@@ -1,0 +1,14 @@
+
+:root{
+     --bg-color1: #E6EED6;
+     --bg-color2: #eff3db;
+}
+
+.home{
+    /* position: relative; */
+}
+
+.homeWrapper{
+    display:flex; 
+    margin: 0px 20px;
+}
