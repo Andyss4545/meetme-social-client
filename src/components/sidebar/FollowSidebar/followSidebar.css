@@ -1,0 +1,115 @@
+:root{
+    --primary-color: #0077b5;
+}
+
+.followSidebarList{
+    padding: 10px 0px 0px 5px;
+}
+
+.followSidebarListItem{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.followSidebarItemImg{
+     height: 70px;
+     width: 70px;
+     object-fit: cover;
+     border-radius: 50%;
+}
+
+.followSidebarItemContent{
+     margin-left: 10px;
+     width: 100%;
+}
+
+.followSidebarAbout{
+     display: flex;
+     flex-direction: column;
+     color: rgb(70, 66, 66);
+     margin-left: 5px;
+}
+
+.followSidebarItemAbout{
+    font-size: 12px;
+    font-weight: 300px;
+    color: rgb(70, 66, 66);
+}
+
+.followSidebarList{
+    list-style: none;
+}
+
+
+.followSidebarMain{
+    background-color: aliceblue;
+    width: 80%;
+    padding: 5px 5px 0px 0px;
+    border-radius: 5px;
+}
+
+.followSidebarDesc{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+
+}
+
+.followSidebarPosts{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+.followSidebarPostTitle{
+    font-weight: 400;
+    color: rgb(70, 66, 66);
+}
+
+.followSidebarPostNum{
+    font-weight: 600;
+    color: rgb(70, 66, 66);
+    font-size: 15px;
+}
+
+.followSidebarbuttons{
+    margin-top: 5px;
+    display: flex;
+}
+
+.followSidebarbtnView{
+     background-color: var(--primary-color);
+     border: 1px solid white;
+     color: white;
+     padding: 0px 7px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-right: 6px;
+}
+
+.followSidebarbtnView:hover{
+      background-color: #1298e0;
+}
+
+.followSidebarbtnFollow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0077b5;
+    border-radius: 5px;
+    color: rgb(70, 66, 66);
+    cursor: pointer;
+}
+
+.followSidebarbtnFollow:hover{
+    background-color: #0077b5;
+    color: white;
+}
+
+.followSidebarIcon{
+    color: rgb(70, 66, 66) !important;
+}
+
+.followSidebarbtnFollow:hover > .followSidebarIcon{
+    color: white !important;
+}

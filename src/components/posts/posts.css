@@ -1,0 +1,132 @@
+.post{
+    margin: 10px 10px 0px 10px;
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    padding-top: 15px;
+}
+
+.postWrapper{
+    margin: 0px 10px;
+}
+
+.postAbout{
+    display: flex;
+    justify-content: space-between;
+}
+
+.postAboutLeft{
+    display: flex;
+    align-items: center;
+}
+
+.postAboutLeftImg{
+    height: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.postAboutLeftName{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(70, 66, 66);
+
+}
+
+.postAboutLeftTime{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.postContent{
+     margin-top: 10px;
+}
+
+.postArticle{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.postMainImg{
+    width: 100%;
+    max-height: 530px;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.postActivity{
+    width: 100%;
+}
+
+.postothers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postLikeOthers{
+    display: flex;
+    align-items: center;
+    margin: 14px 5px 0px 5px;
+}
+
+.postLikeOtherscon{
+    color: rgb(70, 66, 66) !important;
+    margin-right: 7px;
+    cursor: pointer;
+   font-size: 17px !important;
+}
+
+.postLikeOthers > span{
+    color: rgb(70, 66, 66);
+    font-size: 14px;
+}
+
+.postCommentsOthers{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.postCommentNum{
+    color: rgb(70, 66, 66);
+    margin-right: 2px;
+}
+
+.postCommentTitle{
+    font-size: 13px;
+    color: rgb(70, 66, 66);
+    margin-right: 5px;
+}
+
+.postHr{
+    width: 100%;
+    margin-top: 15px;
+    border-top: 1px;
+    border-color: rgb(187, 175, 175);
+}
+
+.postActivityWarapper{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.postLike{
+    display: flex;
+    align-items: center;
+}
+
+.postActivityIcon{
+    color: rgb(70, 66, 66) !important;
+    margin-right: 10px;
+}
+
+.postActivityIcon > span{
+    color: rgb(70, 66, 66) ;
+}

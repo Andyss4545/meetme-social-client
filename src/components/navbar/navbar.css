@@ -1,0 +1,185 @@
+:root{
+     --primary-color: #0077b5;
+}
+.navbar{
+    background-color: white;
+    height: 54px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.navbarWrapper{
+    /* position: absolute; */
+    margin: 0px 20px;
+    /* width: 100%; */
+    /* left: 0;
+    right: 0; 
+    margin: 0 auto; */
+}
+
+.navbarContainer{
+    margin-top: 8px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.navbarLeft{
+    flex: 5;
+}
+
+.navbarLeftContainer{
+     display: flex;
+     align-items: center;
+}
+
+.navbarLogo{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.navbarSearch{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 2px;
+     padding: 8px 0px 8px 0px;
+     margin-left: 6px;
+     width: 100%;
+}
+
+.navbarSearch{
+     background-color: #e8eff3;
+}
+
+.navbarSearch:focus{
+      border: 2px solid #0077b5;
+}
+
+.navbarSearchIcon{
+     margin-left: 5px;
+     font-size: 19px !important;
+     cursor: pointer;
+}
+
+.navbarSearchInput{
+     outline: none;
+     border: none;
+     background: #e8eff3;
+     width: 100%;
+}
+
+
+.navbarCenter{
+    flex: 4;
+}
+
+.navbarMenuContainer{
+     display: flex;
+     justify-content: center;
+}
+
+.navbarCenterMenu{
+     display: flex;
+     flex-direction: column;
+     padding-right: 24px;
+     padding-left: 24px;
+     align-items: center;
+     position: relative;
+}
+
+.navbarNotification{
+     background-color: rgb(214, 14, 14);
+     border-radius: 50%;
+     position: absolute;
+     border: white 2px;
+     top: -2px;
+     right: 42px;
+     padding: 0px 3px;
+     color: white;
+}
+
+.navbarMenuIcon{
+     color: #504a4a;
+     cursor: pointer;
+     font-size: 30px !important;
+}
+
+.navbarMenuIcon:hover{
+    color: #2b2727;
+}
+.navbarMenutitle{
+     font-size: 14px;
+     font-weight: 400;
+     color: rgb(70, 66, 66);
+     cursor: pointer;
+}
+
+.navbarMenutitle:hover{
+     color: rgb(70, 66, 66);
+}
+
+.navbarRight{
+    flex: 1;
+}
+
+.navbarPersonImg{
+     width: 28px;
+     height: 28px;
+     object-fit: cover;
+     border-radius: 50%;
+}
+
+.navbarLightmode{
+      background-color: white;
+      border-radius: 10px;
+      border: 2px solid var(--primary-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 0px;
+}
+
+.navbarLightmode > span {
+     color: rgb(70, 66, 66);
+     font-size: 12px;
+     margin-right: 5px;
+     cursor: pointer;
+}
+
+.navbarmodeIcon{
+      color: white !important;
+      background-color: var(--primary-color);
+      border-radius: 50%;
+      cursor: pointer;
+}
+
+.navbarDarkmode{
+     background-color: white;
+     border-radius: 10px;
+     border: 2px solid #2b2727;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 5px 0px;
+     display: none;
+}
+
+.navbarDarkmode > span{
+     color: #2b2727 !important;
+     margin-right: 5px;
+     font-size: 12px;
+     cursor: pointer;
+}
+
+.navbarmodeIconDark{
+     color: black !important;
+     border-radius: 50%;
+     cursor: pointer;
+}
+
