@@ -8,7 +8,7 @@
 
 .followSidebarListItem{
     display: flex;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .followSidebarItemImg{
@@ -73,37 +73,46 @@
 }
 
 .followSidebarbuttons{
-    margin-top: 5px;
+    margin-top: 10px;
     display: flex;
 }
 
 .followSidebarbtnView{
-     background-color: var(--primary-color);
-     border: 1px solid white;
-     color: white;
+     border: 1px solid rgb(70, 66, 66);
+     color: rgb(70, 66, 66);
      padding: 0px 7px;
      border-radius: 5px;
      cursor: pointer;
      margin-right: 6px;
+     display: flex;
+     align-items: center;
+}
+
+.followSidebarbtnView:hover > .followSidebarIcon{
+    color: white !important;
 }
 
 .followSidebarbtnView:hover{
       background-color: #1298e0;
+      color: white;
+      border: 1px solid white;
 }
 
 .followSidebarbtnFollow{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #0077b5;
+    border: 1px solid rgb(70, 66, 66);
     border-radius: 5px;
     color: rgb(70, 66, 66);
     cursor: pointer;
+    padding: 0px 7px;
 }
 
 .followSidebarbtnFollow:hover{
-    background-color: #0077b5;
+    background-color: #1298e0;
     color: white;
+    border: 1px solid white;
 }
 
 .followSidebarIcon{

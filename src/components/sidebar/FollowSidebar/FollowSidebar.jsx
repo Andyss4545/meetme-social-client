@@ -1,7 +1,7 @@
 import React from "react";
 import "../FollowSidebar/followSidebar.css";
 import PersonImg from "./../../../Assets/person.jpg";
-import { Add } from "@mui/icons-material";
+import { Add, Person } from "@mui/icons-material";
 
 const FollowSidebar = () => {
   return (
@@ -30,7 +30,10 @@ const FollowSidebar = () => {
             </div>
 
             <div className="followSidebarbuttons">
-              <button className="followSidebarbtnView">Profile</button>
+              <div className="followSidebarbtnView">
+                <Person className="followSidebarIcon" />
+                Profile
+              </div>
               <button className="followSidebarbtnFollow">
                 <Add className="followSidebarIcon" />
                 Follow
@@ -62,7 +65,11 @@ const FollowSidebar = () => {
             </div>
 
             <div className="followSidebarbuttons">
-              <button className="followSidebarbtnView">Profile</button>
+              <div className="followSidebarbtnView">
+                {" "}
+                <Person className="followSidebarIcon" />
+                Profile
+              </div>
               <button className="followSidebarbtnFollow">
                 <Add className="followSidebarIcon" />
                 Follow
@@ -94,7 +101,9 @@ const FollowSidebar = () => {
             </div>
 
             <div className="followSidebarbuttons">
-              <button className="followSidebarbtnView">Profile</button>
+              <div className="followSidebarbtnView">
+                <Person className="followSidebarIcon" /> Profile
+              </div>
               <button className="followSidebarbtnFollow">
                 <Add className="followSidebarIcon" />
                 Follow
@@ -126,7 +135,9 @@ const FollowSidebar = () => {
             </div>
 
             <div className="followSidebarbuttons">
-              <button className="followSidebarbtnView">Profile</button>
+              <div className="followSidebarbtnView">
+                <Person className="followSidebarIcon" /> Profile
+              </div>
               <button className="followSidebarbtnFollow">
                 <Add className="followSidebarIcon" />
                 Follow
