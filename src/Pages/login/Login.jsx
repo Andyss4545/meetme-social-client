@@ -7,7 +7,7 @@ const Login = () => {
     <div className="login">
       <div className="loginWrapper">
         <div className="loginTitleAbout">
-          <span className="loginTitle">Registration</span>
+          <span className="loginTitle">Login</span>
           <span className="loginAbtDesc">
             Connect with friends all around the world
           </span>
@@ -36,7 +36,7 @@ const Login = () => {
           </p>
 
           <div className="loginJoin">
-            <button className="loginBtn">Submit</button>
+            <button className="loginBtn">Sign In</button>
 
             <p className="loginSignin">
               Not on Meetme? <span className="loginSigninSpan">Register</span>
