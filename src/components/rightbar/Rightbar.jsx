@@ -2,6 +2,7 @@ import React from "react";
 import "../rightbar/rightbar.css";
 import PersonImg from "../../Assets/person.jpg";
 import WhosOnline from "../whosOnline/WhosOnline";
+import { Users } from "../../dataServices";
 
 const Rightbar = () => {
   return (
@@ -48,7 +49,10 @@ const Rightbar = () => {
       </div>
 
       <div className="whosOnlineWrpper">
-        <WhosOnline />
+        <span className="whosOnlineTitle">Friends Online</span>
+        {Users.map((friend, index) => {
+          return <WhosOnline key={index} friend={friend} />;
+        })}
       </div>
     </div>
   );

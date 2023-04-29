@@ -15,7 +15,7 @@
 .whosOnlinePerson{
    height: 35px;
    width: 35px;
-   object-fit: contain;
+   object-fit: cover;
    border-radius: 50%;
    margin-right: 10px;
 }
