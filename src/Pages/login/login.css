@@ -1,0 +1,119 @@
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginWrapper{
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    width: 380px;
+}
+
+.loginTitleAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginTitle{
+    color: rgb(70, 66, 66);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.loginAbtDesc{
+    color: rgb(70, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.loginContainer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.loginContainerWrap{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.loginInputWrap{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.loginInputWrap > input{
+    width: 70%;
+    padding: 7px 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:2px solid rgb(199, 199, 199);
+}
+
+.loginInputWrap > input:focus{
+    outline: none;
+}
+
+.loginIcon{
+    font-size: 20px !important;
+    color: white !important;
+    background-color: #0077b5;
+   padding: 7px 9px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+}
+
+.loginHr{
+    width: 85%;
+    border: 1px solid rgb(241, 238, 238);
+}
+
+.loginAcceptDesc{
+    margin-top: 10px;
+   text-align: center;
+   color: #464242;
+   font-size: 16px;
+}
+
+.loginPrivacy{
+    color: #0077b5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.loginJoin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginBtn{
+    margin-top: 15px;
+    border: none;
+    background-color: #0077b5;
+    color: white;
+    width: 90%;
+    padding: 7px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginSignin{
+    margin-top: 10px;
+    color: rgb(70, 66, 66);
+    margin-bottom: 10px;
+}
+
+.loginSigninSpan{
+    color: #0077b5;
+    cursor: pointer;
+}
