@@ -1,0 +1,206 @@
+.profile{
+    display: flex;
+    margin: 0px 20px;
+}
+
+.profileSidebar{
+    flex: 3;
+}
+
+.profilemain{
+   flex: 7;
+}
+
+.profileContainer{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileWrapper{
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    padding-bottom: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.profileCoverImg{
+    width: 100%;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.profilePicture{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    position: relative;
+    margin-top: -62px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profileAboutMe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileAboutMeLeft{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 30px;
+    color: rgb(70, 66, 66);
+}
+
+.profileName{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.profileDesc{
+    margin-top: 6px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.profileAboutMeRight{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.profileAddPost{
+   
+
+}
+
+.profileAddPostContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(70, 66, 66);
+    border-radius: 5px;
+    color: rgb(70, 66, 66);
+    cursor: pointer;
+    padding: 3px 5px;
+    margin-right: 10px;
+}
+
+.profileAddPostContent:hover{
+    background-color: rgb(231, 230, 230);
+}
+
+.profileEditContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(70, 66, 66);
+    border-radius: 5px;
+    color: rgb(70, 66, 66);
+    cursor: pointer;
+    padding: 3px 5px;
+    
+}
+
+.profileAddIcon{
+    color: rgb(70, 66, 66) !important;
+    font-size: 17px;
+}
+
+.profileEditContent:hover{
+      background-color: rgb(231, 230, 230);
+}
+
+
+.profileEdit{
+    /* border: 1px solid rgb(70, 66, 66);
+    border-radius: 5px;
+    color: rgb(70, 66, 66);
+    cursor: pointer;
+    padding: 6px 8px; */
+}
+
+.profileEditIcon{
+    color: rgb(70, 66, 66) !important;
+    font-size: 17px;
+}
+
+.profileAboutBottom{
+    margin-top: 5px;
+    margin-left: 25px;
+    display: flex;
+}
+
+.profileAboutLocation{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    color: rgb(70, 66, 66);
+}
+
+.profileAboutTime{
+    display: flex;
+    align-items: center;
+    color: rgb(70, 66, 66);
+}
+
+.profileAboutIcon{
+    color: rgb(70, 66, 66) !important;
+    font-size: 19px !important;
+    margin-right: 5px;
+}
+
+.profileAllDetailsWrapper{
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.profileDetails{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.profileDetailsTitle{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(70, 66, 66);
+}
+
+.profileline{
+   width: 100%;
+   border-top: 0.5px solid rgb(238, 238, 238);
+}
+
+.profileDetailsDesc > span {
+    margin-top: 8px;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(70, 66, 66);
+}
+
+.profileDetailsEdit{
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    color: rgb(114, 107, 107) !important;
+    font-size: 20px;
+}
+
+.profileDetailsEdit:hover{
+    background-color: rgb(236, 233, 233);
+    border-radius: 50%;
+    padding: 4px;
+}
+
