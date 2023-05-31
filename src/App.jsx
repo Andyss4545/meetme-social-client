@@ -12,7 +12,10 @@ function App() {
       <div className="app">
         <Routes>
           <Route path={"/"} element={[<Navbar />, <Home />]} />
-          <Route path={"/myprofile"} element={[<Navbar />, <Profile />]} />
+          <Route
+            path={"/profile/:userId"}
+            element={[<Navbar />, <Profile />]}
+          />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>
