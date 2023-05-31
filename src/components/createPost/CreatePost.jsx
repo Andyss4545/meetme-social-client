@@ -1,6 +1,7 @@
 import React from "react";
 import "../createPost/createPost.css";
 import Person from "../../Assets/person.jpg";
+import { Link } from "react-router-dom";
 import {
   InsertPhoto,
   SmartDisplay,
@@ -13,7 +14,10 @@ const CreatePost = () => {
     <div className="createPost">
       <div className="createPostWrapper">
         <div className="createPostTop">
-          <img src={Person} alt="" className="createPostImg" />
+          <Link to={"/profile"}>
+            <img src={Person} alt="" className="createPostImg" />
+          </Link>
+
           <input
             type="text"
             placeholder="What's on your mind?"
