@@ -3,6 +3,7 @@ import "../rightbar/rightbar.css";
 import PersonImg from "../../Assets/person.jpg";
 import WhosOnline from "../whosOnline/WhosOnline";
 import { Users } from "../../dataServices";
+import { Link } from "react-router-dom";
 
 const Rightbar = () => {
   return (
@@ -15,8 +16,9 @@ const Rightbar = () => {
               src="https://wallpapers.net/clear-road-nature/download/2560x1440.jpg"
               alt=""
             />
-
-            <img className="rightbarProfile" src={PersonImg} alt="" />
+            <Link to={"/myprofile"}>
+              <img className="rightbarProfile" src={PersonImg} alt="" />
+            </Link>
           </div>
 
           <div className="rightbarContent">
